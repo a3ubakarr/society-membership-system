@@ -1,0 +1,11 @@
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app           # Mount project folder (app, tests, etc.)
+      - ./db:/app/db     # Persistent SQLite DB
+    environment:
+      - FLASK_ENV=development
+

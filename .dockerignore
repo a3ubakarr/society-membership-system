@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Git files
+.git
+.gitignore
+
+# Student temp files / IDE files
+*.ipynb
+*.swp
+*.DS_Store
+.vscode/
+.idea/
+
+# Local SQLite database (start fresh in container)
+db/members.db
+
+# Logs
+*.log
+
+# OS / system files
+Thumbs.db
